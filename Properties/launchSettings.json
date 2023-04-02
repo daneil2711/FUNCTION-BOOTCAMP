@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FUNCTION_BOOTCAMP": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7141",
+      "launchBrowser": false
+    }
+  }
+}
