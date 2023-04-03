@@ -12,7 +12,7 @@ namespace Company.Function
 {
     public static class fnDaniPacote
     {
-        [FunctionName("fnDaniPacote")]
+        [FunctionName("fnDaniPacote")] //tESTE
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log, [Queue("fila-pedido"),StorageAccount("AzureWebJobsStorage")]
